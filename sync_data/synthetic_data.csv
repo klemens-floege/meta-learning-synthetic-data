@@ -1,0 +1,16 @@
+<s> Based on the following data examples, generate more synthetic data inline with these examples:
+predclass,age,workclass,native-country,education,marital-status,education-num,capital-gain,capital-loss,sex,race,relationship,sex-marital
+0,11,3,7,1,1,12,0,0,1,4,1,6
+0,35,4,7,5,3,8,0,0,1,2,4,8
+0,42,3,7,5,0,8,0,0,1,4,0,5
+0,15,3,7,5,0,8,0,0,1,4,0,5
+0,24,1,7,5,3,8,0,0,1,4,3,8
+
+Here's the data:
+
+| predclass | age | workclass | native-country | education | marital-status | education-num | capital-gain | capital-loss | sex | race | relationship |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0 | 11 | 3 | 7 | 1 | 1 | 12 | 0 | 0 | 1 | 4 | 1 |
+| 0 | 35 | 4 | 7 | 5 | 3 | 8 | 0 | 0 | 1 | 2 | 4 | 8 |
+| 0 | 42 | 3 | 7 | 5 | 0 | 8 | 0 | 0 | 1 | 4 | 0 | 5 |
+| 0
