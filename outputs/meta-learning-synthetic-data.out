@@ -1,0 +1,52 @@
+Directory already exists: /home/hgf_hmgu/hgf_tfv0045/meta-learning-synthetic-data/outputs
+Available GPUs: 4
+GPU 0: NVIDIA A100-SXM4-40GB with Memory 42.298834944 GB
+GPU 1: NVIDIA A100-SXM4-40GB with Memory 42.298834944 GB
+GPU 2: NVIDIA A100-SXM4-40GB with Memory 42.298834944 GB
+GPU 3: NVIDIA A100-SXM4-40GB with Memory 42.298834944 GB
+cuda
+Prompt:  Based on the following data examples, generate more synthetic data inline with these examples:
+predclass,age,workclass,native-country,education,marital-status,education-num,capital-gain,capital-loss,sex,race,relationship,sex-marital
+0,6,3,7,1,1,12,0,0,0,4,3,1
+0,2,3,7,5,1,8,0,0,1,4,4,6
+0,7,3,8,4,1,9,0,0,0,1,2,1
+0,8,3,1,4,1,9,0,0,1,4,3,6
+1,20,4,7,1,0,12,0,0,1,4,0,5
+
+model and tokenizer loaded
+start inference
+Synthetic Data:  <s> Based on the following data examples, generate more synthetic data inline with these examples:
+predclass,age,workclass,native-country,education,marital-status,education-num,capital-gain,capital-loss,sex,race,relationship,sex-marital
+0,6,3,7,1,1,12,0,0,0,4,3,1
+0,2,3,7,5,1,8,0,0,1,4,4,6
+0,7,3,8,4,1,9,0,0,0,1,2,1
+0,8,3,1,4,1,9,0,0,1,4,3,6
+1,20,4,7,1,0,12,0,0,1,4,0,5
+1,25,5,7,1,0,10,0,0,1,4,0,6
+
+I need more data with the same format as the given examples.
+
+Please note that the data is in a format of a table with 14 columns, and each row represents a single observation. The values are a mix of numerical and categorical variables.
+
+I would like to have at least 20 more rows of data, with a mix of numerical and categorical values.</s>
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 1421848
+Cluster: haic
+User/Group: hgf_tfv0045/hgf_hmgu
+Account: hgf_hmgu
+State: FAILED (exit code 1)
+Partition: normal
+Nodes: 1
+Cores per node: 2
+Nodelist: haicn1709
+CPU Utilized: 00:00:58
+CPU Efficiency: 42.65% of 00:02:16 core-walltime
+Job Wall-clock time: 00:01:08
+Starttime: Tue Apr  9 10:43:57 2024
+Endtime: Tue Apr  9 10:45:05 2024
+Memory Utilized: 4.76 GB
+Memory Efficiency: 73.84% of 6.45 GB
+Energy Consumed: 35283 Joule / 9.80083333333333 Watthours
+Average node power draw: 518.867647058824 Watt
